@@ -1,0 +1,45 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{int a[10],i,n,low,high,mid,found,key;
+
+    cout<<"Enter no of elements\n";
+    cin>>n;
+
+    cout<<"Enter array elements in sorted order\n";
+    for(i=0;i<n;i++)
+            cin>>a[i];
+    
+    cout<<"The elements of array are:\n";
+    for(i=0;i<n;i++)
+            cout<<a[i]<<"\t";
+
+    cout<<"\nEnter key to be searched\n";
+    cin>>key;
+
+    /* Binary search on sorted array */
+    found = 0;
+    low=0;
+    high=n-1;
+while( low <= high)
+{
+        mid= (low + high) / 2;
+        if(a[low]>key || a[high]<key)
+        {cout<<"Invalid element entered:"; 
+        return 0;
+        }
+        if(a[low]==key)
+        { return low;
+        }
+        else if(a[high]==key)
+        { return high;
+        }
+        else
+        {
+        
+
+
+
+}
