@@ -1,0 +1,6 @@
+I feel that the modified binary search algorithm is successful in reducing the execution time(around 0.05 secs on an average which is a lot)
+and hence power usage.
+This new method of finding an element is quicker and much more efficient.
+By eliminating the need to make un-neccessary checks at the beginning itself , the algorithm directly searches for the element in contrast to
+the traditional binary search algorithm.
+Over all, this modified version has proven to be successful.
