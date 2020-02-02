@@ -1,3 +1,7 @@
+//CODE WRITTEN IN C++
+
+
+
 #include <iostream>
 
 using namespace std;
@@ -40,12 +44,20 @@ while( low <= high)
  if( found == 1)
       cout<<"SUCCESSFUL SEARCH\n";
  else
-       cout<<"Search is  	  		FAILED\n";
-    
-
-
-
+       cout<<"Search FAILED\n";}
 }
+SUPPOSE INPUT IS
+ENTER NO OF ELEMENTS
+5
+ENTER SORTED ELEMENTS OF ARRAY
+10
+20
+30
+40
+50
+ENTER ELEMENT TO BE SEARCHED
+30
+SUCCESFUL SEARCH
 
 
 TIME OF EXECUTION WAS:0.21 SECONDS
