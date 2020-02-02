@@ -3,4 +3,5 @@ and hence power usage.
 This new method of finding an element is quicker and much more efficient.
 By eliminating the need to make un-neccessary checks at the beginning itself , the algorithm directly searches for the element in contrast to
 the traditional binary search algorithm.
+I feel that this method could be used in cases of large amounts of data.
 Over all, this modified version has proven to be successful.
