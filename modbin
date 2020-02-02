@@ -31,15 +31,40 @@ while( low <= high)
         return 0;
         }
         if(a[low]==key)
-        { return low;
+        { cout<<"element found at"<<low<<"position";
+        return 0;
         }
         else if(a[high]==key)
-        { return high;
+         { cout<<"element found at"<<high<<"position";
+        return 0;
         }
         else
-        {
-        
-
-
-
+        { if(a[mid]==key)
+           { cout<<"element found at"<<mid<<"position";
+           return 0;
+           }
+        else if  (a[mid]>key)
+        { high=mid-1;
+        low++;
+        }
+        else if(a[mid]<key)
+        { low=mid+1;
+          high--;
+          }
 }
+}
+SUPPOSE THE OUTPUT WAS
+ENTER NO OF ELEMENTS
+5
+ENTER THE SORTED ELEMENTS
+10
+20
+30
+40
+50
+THE ELEMENTS OF THE ARRAY ARE
+10 20 30 40 50
+ENTER ELEMENT TO BE SEARCHED
+20
+ELEMENT FOUND AT 1 POSITION
+EXECUTION TIME IS 0.14 SECONDS.
